@@ -22,8 +22,7 @@
 .text1,.text2,.text3{
     position: absolute;
     top: 0px;
-    right: 120px;
-    left: 120px;
+    left: 0px;
     text-align: center;
     border: 1px solid black;
     font-size: 25px;
