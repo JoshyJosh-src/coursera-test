@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif, monospace, fantasy;
+}   
+
+.cat,.dog,.fish{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: black;
+    color: white;
+/*    padding: 20px;*/
+    padding: 30px 5px 5px 5px;
+    width: 31.5%;
+    float: left;
+    position: relative;
+}
+.heading{
+    text-align: center;
+    font-size: 75px;
+}
+.text1,.text2,.text3{
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    left: 120px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 25px;
+}
+.text1{
+    background-color: grey;
+}
+.text2{
+    background-color: gold;
+}
+.text3{
+    background-color: skyblue;
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .cat,.dog,.fish{
+/*        padding: 5px;*/
+        width: 31.5%;
+        float: left;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .cat,.dog{
+/*        padding: 5px;*/
+        width: 47%;
+        float: left;
+    }
+    .fish{
+/*        padding: 5px;*/
+        width: 96.5%;
+        float: left;
+    }
+}
+
+@media (max-width:767px){
+    .cat,.dog,.fish{
+/*        padding: 5px;*/
+        width: 97%;
+        float: left;
+    }
+
+}
